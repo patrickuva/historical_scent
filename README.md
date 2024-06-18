@@ -8,7 +8,7 @@ For this project I used the data extracted by the Odeuropa project. The odeuropa
 
 ## OCTIS
 
-For the optimization of the models and the preprocessing of the dataset, we utilized the OCTIS framework. LINK TO FRAMEWORK:
+For the implementation of the models and the preprocessing of the dataset, we utilized the OCTIS framework. LINK TO FRAMEWORK:
 
 ## MODELS
 
