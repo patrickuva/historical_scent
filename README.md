@@ -20,5 +20,8 @@ For this project, we tested 6 different models: LDA, CTM, NMF, BERTopic (pretrai
 For the evaluation of this model, we used OCTIS to compute the Topic Coherence and Topic Diversity. The actual topics can be found in Appendix A of the research paper and computed by running the model. The generated models are used for futher human evaluation.
 
 ## Framework usage guide.
+### Dataset creation:
+First of all, the 4 used datasets in our experiments are listed in the 'used_datasets' folder. To create the datasets, you can download the data from the drive link listed in the data section above and run the en_full_pre.ipynb, nl_full_pre.ipynb, pre_mod_create.ipynb notebooks in the data_Prep models. But since the models are already in used_datasets, this is not necessary. 
 
+The next step is to run the Data_Prep.ipynb in the data_Prep folder. This creates the data form required for the OCTIS framework, including vocabularies, for both the TMs and the DTMs. The notebook uses the scripts listed in the same folder. For the final implementation of the models you can run the models in the TM_implementation folder, that utilize the evaluaton3 and evaluation_vis scripts. For each model you can run the experiment to compute topic coherence and topic diversity, that are then stored in json files and run the model that generates the topics, used for topic evaluation, that are also stored as json files.
 
