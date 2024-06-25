@@ -1,0 +1,1 @@
+[{"Dataset": "NL", "Dataset Size": 9997, "Model": "BERTopic", "Scores": {"npmi": -0.008336484193300095, "diversity": 1.0}, "Computation Time": 18.967056274414062, "Topics": [["geur", "bloemen", "geurige", "grote", "water", "goed", "geuren", "lucht", "leven", "laat"]]}]
